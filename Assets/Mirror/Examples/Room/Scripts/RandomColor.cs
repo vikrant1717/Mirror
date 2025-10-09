@@ -8,6 +8,7 @@ namespace Mirror.Examples.NetworkRoom
         {
             base.OnStartServer();
             color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+            
         }
 
         // Color32 packs to 4 bytes
