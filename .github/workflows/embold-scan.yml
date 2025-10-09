@@ -36,7 +36,7 @@ jobs:
           EMBOLD_TOKEN: ${{ secrets.EMBOLD_SCAN_TOKEN }}
         run: |
           ./browserstack-codequality-scanner/bin/embold-scanner analyse \
-            -u http://3.66.212.6:3000 \
+            -u http://18.156.1.119:3000 \
             -t $EMBOLD_TOKEN \
             -r 82ccf1df2a724c517c97ae87a3931490 \
             -b . \
