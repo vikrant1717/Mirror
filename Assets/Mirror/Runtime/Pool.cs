@@ -16,6 +16,7 @@ namespace Mirror
         public Pool(Func<T> objectGenerator)
         {
             this.objectGenerator = objectGenerator;
+            
         }
 
         // take an element from the pool, or create a new one if empty
